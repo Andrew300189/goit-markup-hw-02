@@ -38,3 +38,7 @@ footer {
   font-size: 16px;
   line-height: 1.5;
 }
+.order-service-button {
+  color: #e5e5e5;
+  background-color: #4d5ae5;
+}
