@@ -32,14 +32,17 @@ body {
 .contacts:focus {
   color: red;
 }
-.order-service-button {
-  color: #e5e5e5;
+.button1 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ffffff;
   background-color: #4d5ae5;
 }
-.order-service-button:hover,
-.order-service-button:focus {
+.button1:hover,
+.button1:focus {
   color: #d81a1a;
-  background-color: white;
+  background-color: #ffffff;
 }
 footer {
   color: #e7e9fc;
