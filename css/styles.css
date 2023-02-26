@@ -42,3 +42,8 @@ footer {
   color: #e5e5e5;
   background-color: #4d5ae5;
 }
+.order-service-button:hover,
+.order-service-button:focus {
+  color: #d81a1a;
+  background-color: white;
+}
