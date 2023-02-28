@@ -169,6 +169,6 @@ footer {
   height: 310px;
   left: 0px;
   top: 1764px;
-  color: #e7e9fc;
+  color: var(--color-cornflower);
   background-color: var(--color-navyblue);
 }
