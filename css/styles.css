@@ -28,6 +28,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 2%;
+  color: var(--color-navyblue);
   background-color: var(--color-white);
 }
 .logo-top {
@@ -123,6 +124,7 @@ span {
   color: var(--color-iris);
   background-color: var(--color-cornflower);
   cursor: pointer;
+  border: 0px;
 }
 .button:hover,
 .button:focus {
@@ -159,6 +161,24 @@ span {
 .photos {
   background-color: var(--color-white);
 }
+.header3 {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-navyblue);
+}
+.position-names {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
+}
 .footer-text {
   font-family: inherit;
   font-style: normal;
@@ -169,9 +189,5 @@ span {
   color: var(--color-cornflower);
 }
 footer {
-  width: 1440px;
-  height: 310px;
-  left: 0px;
-  top: 1764px;
   background-color: var(--color-navyblue);
 }
