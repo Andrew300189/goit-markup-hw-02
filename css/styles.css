@@ -10,6 +10,18 @@
   --color-cloud: #f4f4fd;
   --color-grey: #4e5754;
 }
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: regular;
@@ -18,9 +30,13 @@ body {
   letter-spacing: 2%;
   background-color: var(--color-white);
 }
-.logo {
+.logo-top {
   font-family: 'Raleway';
   color: var(--color-navyblue);
+}
+.logo-bottom {
+  font-family: 'Raleway';
+  color: var(--color-cloud);
 }
 .contacts {
   font-family: 'Roboto';
@@ -30,6 +46,14 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-navyblue);
+}
+.contacts:hover,
+.email:hover,
+.phone:hover,
+.contacts:focus,
+.email:focus,
+.phone:focus {
+  color: var(--color-ocean);
 }
 .email,
 .phone {
@@ -63,11 +87,6 @@ body {
   color: var(--color-slate);
 }
 .top-section {
-  position: absolute;
-  width: 1440px;
-  height: 600px;
-  left: 0px;
-  top: 72px;
   background-color: var(--color-navyblue);
 }
 .header1 {
@@ -80,6 +99,22 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-white);
 }
+.button {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--color-iris);
+  background-color: var(--color-cornflower);
+  cursor: pointer;
+}
+.button:hover,
+.button:focus {
+  color: var(--color-white);
+  background-color: var(--color-ocean);
+}
 .button-1 {
   font-family: 'Roboto';
   font-style: normal;
@@ -89,32 +124,40 @@ body {
   letter-spacing: 0.04em;
   color: var(--color-white);
   background-color: var(--color-iris);
+  cursor: pointer;
 }
 .button-1:hover,
 .button-1:focus {
   color: var(--color-white);
   background-color: var(--color-ocean);
 }
-.button {
-  cursor: pointer;
-  color: var(--color3);
-  background-color: var(--color4);
-}
-.button:hover {
-  color: var(--color5);
-  background-color: var(--color7);
-}
+
 .link {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
 }
-.contacts:hover,
-.contacts:focus {
-  color: var(--color6);
+.team {
+  background-color: var(--color-cloud);
 }
-
-footer > .text {
-  color: #000;
+.photos {
+  background-color: var(--color-white);
+}
+footer {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  width: 1440px;
+  height: 310px;
+  left: 0px;
+  top: 1764px;
+  color: #e7e9fc;
+  background-color: var(--color-navyblue);
+}
+span {
+  color: var(--color-iris);
 }
