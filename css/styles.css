@@ -44,7 +44,7 @@ span {
 }
 
 .contacts {
-  font-family: 'Roboto';
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -62,7 +62,7 @@ span {
 }
 .email,
 .phone {
-  font-family: 'Roboto';
+  font-family: inherit;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -74,7 +74,7 @@ span {
   list-style-type: none;
 }
 .title {
-  font-family: 'Roboto';
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -83,7 +83,7 @@ span {
   color: var(--color-navyblue);
 }
 .text {
-  font-family: 'Roboto';
+  font-family: inherit;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -92,7 +92,7 @@ span {
   color: var(--color-slate);
 }
 .small-letters {
-  font-family: 'Roboto';
+  font-family: inherit;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -104,7 +104,7 @@ span {
   background-color: var(--color-navyblue);
 }
 .header1 {
-  font-family: 'Roboto';
+  font-family: inherit;
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
@@ -114,7 +114,7 @@ span {
   color: var(--color-white);
 }
 .button {
-  font-family: 'Roboto';
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -130,7 +130,7 @@ span {
   background-color: var(--color-ocean);
 }
 .button-1 {
-  font-family: 'Roboto';
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -147,6 +147,7 @@ span {
 }
 
 .link {
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -158,17 +159,19 @@ span {
 .photos {
   background-color: var(--color-white);
 }
-footer {
-  font-family: 'Roboto';
+.footer-text {
+  font-family: inherit;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--color-cornflower);
+}
+footer {
   width: 1440px;
   height: 310px;
   left: 0px;
   top: 1764px;
-  color: var(--color-cornflower);
   background-color: var(--color-navyblue);
 }
